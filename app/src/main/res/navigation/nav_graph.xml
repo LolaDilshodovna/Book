@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splash">
+
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.example.dorixona.Splash"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splash_to_logIn"
+            app:destination="@id/logIn"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_splash_to_main"
+            app:destination="@id/main" />
+    </fragment>
+    <fragment
+        android:id="@+id/logIn"
+        android:name="com.example.dorixona.LogIn"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_logIn_to_registration2"
+            app:destination="@id/registration2"
+            app:popUpTo="@id/logIn" />
+        <action
+            android:id="@+id/action_logIn_to_main"
+            app:destination="@id/main" />
+    </fragment>
+    <fragment
+        android:id="@+id/registration2"
+        android:name="com.example.dorixona.Registration"
+        android:label="Registration" >
+        <action
+            android:id="@+id/action_registration2_to_main"
+            app:destination="@id/main"
+            app:popUpTo="@id/splash" />
+    </fragment>
+    <fragment
+        android:id="@+id/main"
+        android:name="com.example.dorixona.Main"
+        android:label="Main" />
+</navigation>

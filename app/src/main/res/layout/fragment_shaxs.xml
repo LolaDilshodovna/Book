@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shaxs">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="680dp"
+        android:src="@drawable/baseline_settings_suggest_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="680dp"
+        android:text="Shaxsiy kabinet"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="76dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:text="Azizov Ali"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="abcdef@gmail.com"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="144dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="76dp"
+        android:layout_height="23dp"
+        android:text="          1"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="o'qilayotgan"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="76dp"
+        android:layout_height="23dp"
+        android:text="          1"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="o'qilayotgan"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="160dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="680dp"
+        android:src="@drawable/baseline_keyboard_backspace_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="91dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="548dp"
+        android:src="@drawable/baseline_person_pin_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
